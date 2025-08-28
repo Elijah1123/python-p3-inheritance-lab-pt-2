@@ -14,4 +14,15 @@ class ChattyStudent(Student):
     def raise_hand(self):
         for _ in range(10):
             super().raise_hand()
-            
+
+
+s1 = Student()
+s1.hello()
+s1.raise_hand()
+
+print("----------")
+
+# Create a ChattyStudent
+s2 = ChattyStudent()
+s2.hello()
+s2.raise_hand()
